@@ -1,4 +1,5 @@
 # Site settings
+port: 4002
 title: Jack Blog
 SEOTitle: 张智城的博客 | Jack Blog
 header-img: img/post-bg-desk.jpg
@@ -99,7 +100,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "codeWars",
+        title: "codewars",
         href: "https://www.codewars.com/"
     },{
         title: "Haskell",
