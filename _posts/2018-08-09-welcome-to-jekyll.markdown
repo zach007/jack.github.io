@@ -26,10 +26,9 @@ windows安装会比较麻烦，首先安装ruby，其次要设置Path等等比�
 **`所以下一篇文章会讲解写到docker，和大家分享一个用docker学习新技术的套路`**
 2. 我是fork了这个人项目入门的，如果有兴趣可以看一下 [如何搭建jekyll博客]
 3. 简单的说明一下jekyll文件结构(只关注重点)
-  - posts
-    - 博客文章
-  - layouts 
-    - 页面布局
+  - posts : 博客文章
+  - layouts : 页面布局
+  - other : 不用管
 4. 简单的介绍一下jekyll命令
    1. jekyll new path : 新建文章
    2. cd path ,bundle install : 安装插件
@@ -37,7 +36,7 @@ windows安装会比较麻烦，首先安装ruby，其次要设置Path等等比�
    
 ## 总结
 有很多想分享的，但是别人已经很详细了，倒不如给一个概念，然后谷歌一下方便快捷得多  
-写文章真的是比我想象中耗费时间呀。。。
+写文章真的是比我想象中耗费时间呀，当作草稿慢慢写好了。。。
 
 [如何搭建jekyll博客]: https://www.jianshu.com/p/e68fba58f75c
 
