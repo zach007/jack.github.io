@@ -3,24 +3,41 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-08-09 00:15:18 +0800
 categories: jekyll update
+header-img: img/post-bg-universe.jpg
+tag: jekyll, blog
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+## 你能学到什么
+1. 如何搭建个人博客
+2. 为什么选择jekyll 
+3. 简单使用jekyll
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## 背景
+今天开始写博客，感觉会有一些东西想跟大家分享一下，毕竟分享也是成长的一部分。  
+昨晚开始搭建博客系统，选择了jekyll的原因有
+- 静态博客，马上能看见效果，调试方便
+- jekyll理念，官网宣称的，让作者忘记主题，关注产出(post文章)。
+- 支持 `makedown` 格式  
 
-Jekyll also offers powerful support for code snippets:
+## 正文
+1. 首先推荐各位使用linux，因为是官方推荐系统，jekyll会依赖`ruby` 安装起来会比较简单，
+windows10的话可以开启虚拟化，有自带的ubuntu也是可以的。  
+windows安装会比较麻烦，首先安装ruby，其次要设置Path等等比较麻烦，而且会中文乱码，因此个人推荐使用一下windows  
+当然最推荐的是docker，因为我最不喜欢就是搭建环境，这是时间收益比最低的地方啦。  
+**`所以下一篇文章会讲解写到docker，和大家分享一个用docker学习新技术的套路`**
+2. 我是fork了这个人项目入门的，如果有兴趣可以看一下 [如何搭建jekyll博客]
+3. 简单的说明一下jekyll文件结构(只关注重点)
+  - posts
+    - 博客文章
+  - layouts 
+    - 页面布局
+4. 简单的介绍一下jekyll命令
+   1. jekyll new path : 新建文章
+   2. cd path ,bundle install : 安装插件
+   3. bundle exec jekyll --watch : 运行jekyll,并且自动页面修改会自动刷新
+   
+## 总结
+有很多想分享的，但是别人已经很详细了，倒不如给一个概念，然后谷歌一下方便快捷得多  
+写文章真的是比我想象中耗费时间呀。。。
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+[如何搭建jekyll博客]: https://www.jianshu.com/p/e68fba58f75c
 
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
