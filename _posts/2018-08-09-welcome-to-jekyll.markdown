@@ -19,9 +19,9 @@ tag: jekyll, blog
 - 支持 `makedown` 格式  
 
 ## 正文
-1. 首先推荐各位使用linux，因为是官方推荐系统，jekyll会依赖`ruby` 安装起来会比较简单，
+1. 先推荐各位使用linux，因为是官方推荐系统，jekyll会依赖`ruby` ,linux下安装起来会比较简单，
 windows10的话可以开启虚拟化，有自带的ubuntu也是可以的。  
-windows安装会比较麻烦，首先安装ruby，其次要设置Path等等比较麻烦，而且会中文乱码，因此个人推荐使用一下windows  
+windows安装会比较麻烦，首先安装ruby，其次要设置Path等等比较麻烦，而且会中文乱码，windows下推荐使用安装包管理`chocolatey`工具  
 当然最推荐的是docker，因为我最不喜欢就是搭建环境，这是时间收益比最低的地方啦。  
 **`所以下一篇文章会写到docker，和大家分享一个用docker学习新技术的套路`**
 2. 我是fork了这个人项目入门的，如果有兴趣可以看一下 [如何搭建jekyll博客]
